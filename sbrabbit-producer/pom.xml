@@ -36,7 +36,7 @@
         </dependency>
         <!-- 工具类依赖包 -->
         <dependency>
-            <groupId>com.hynnet</groupId>
+            <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
         <dependency>

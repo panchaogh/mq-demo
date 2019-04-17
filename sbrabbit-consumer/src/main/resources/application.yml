@@ -5,18 +5,18 @@ spring:
     password: test
     virtual-host: test
     connection-timeout: 15000
-    listener: #SpringBootÕûºÏRabbitMq Ïû·Ñ¶ËÅäÖÃ
+    listener: #SpringBootæ•´åˆRabbitMq æ¶ˆè´¹ç«¯é…ç½®
       simple:
-        concurrency: 5 #²¢·¢Êı
-        acknowledge-mode: manual #Ç©ÊÕÄ£Ê½ ÊÖ¶¯Ç©ÊÕ(manual)ºÍ×Ô¶¯Ç©ÊÕ(auto)
-        max-concurrency: 10 #×î´ó²¢·¢Êı
-        prefetch: 1 #ÏŞÁ÷
+        concurrency: 5 #å¹¶å‘æ•°
+        acknowledge-mode: manual #ç­¾æ”¶æ¨¡å¼ æ‰‹åŠ¨ç­¾æ”¶(manual)å’Œè‡ªåŠ¨ç­¾æ”¶(auto)
+        max-concurrency: 10 #æœ€å¤§å¹¶å‘æ•°
+        prefetch: 1 #é™æµ
   http:
     encoding:
       charset: UTF-8
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GMT+8
+    time-zone: GMT+08
     default-property-inclusion: non_null
 server:
   servlet:
